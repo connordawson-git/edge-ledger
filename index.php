@@ -61,7 +61,7 @@
         </section>
 
         <!-- About Solutions -->
-        <section class="solutions flex-columns">
+        <section id="solutions" class="solutions flex-columns">
             <div class="row">
                 <div class="column">
                     <div class="column-1">
@@ -74,6 +74,52 @@
                         <h2>We provide bespoke solutions</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit delectus vero enim nobis, minima eligendi nisi sed perspiciatis saepe pariatur!</p>
                         <a href="" class="btn btn-outline"> <i class="fas fa-chevron"></i> Read More</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Cases -->
+        <section id="cases" class="cases flex-grid section-padding">
+            <header class="section-header">
+                <h4>This is what we do</h4>
+                <h2>Business Cases</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, eius.</p>
+            </header>
+            <div class="row">
+                <div class="column">
+                    <img src="images/cases/cases1.jpg" alt="">
+                    <img src="images/cases/cases2.jpg" alt="">
+                </div>
+                <div class="column">
+                    <img src="images/cases/cases3.jpg" alt="">
+                    <img src="images/cases/cases4.jpg" alt="">
+                </div>
+                <div class="column">
+                    <img src="images/cases/cases5.jpg" alt="">
+                    <img src="images/cases/cases6.jpg" alt="">
+                </div>
+                <div class="column">
+                    <img src="images/cases/cases7.jpg" alt="">
+                    <img src="images/cases/cases8.jpg" alt="">
+                </div>
+            </div>
+        </section>
+
+        <!-- Blog -->
+        <section id="blog" class="blog flex-columns flex-reverse">
+            <div class="row">
+                <div class="column">
+                    <div class="column-1">
+                        <img src="images/home/blog.jpg" alt="">
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="column-2 bg-secondary">
+                        <h4><?php echo Date("d/m/Y")?></h4>
+                        <h2>Blog Post One</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit delectus vero enim nobis, minima eligendi nisi sed perspiciatis saepe pariatur!</p>
+                        <a href="" class="btn btn-outline"> <i class="fas fa-chevron"></i> Read Our Blog</a>
                     </div>
                 </div>
             </div>
