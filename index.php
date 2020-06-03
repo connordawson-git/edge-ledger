@@ -124,6 +124,71 @@
                 </div>
             </div>
         </section>
+
+        <!-- Team -->
+        <section id="team" class="team section-padding">
+            <header class="section-header">
+                <h4>Who we are</h4>
+                <h2>Our Professional Team</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, eius.</p>
+            </header>
+            <div class="flex-items">
+                <div>
+                    <img src="images/team/person1.jpg" alt="">
+                    <h4>John Doe</h4>
+                    <p>President</p>
+                </div>
+                <div>
+                    <img src="images/team/person2.jpg" alt="">
+                    <h4>Jane Doe</h4>
+                    <p>Vice president</p>
+                </div>
+                <div>
+                    <img src="images/team/person3.jpg" alt="">
+                    <h4>Elliot alderson</h4>
+                    <p>Chief Technical Officer</p>
+                </div>
+            </div>
+        </section>
+        <!-- Contact -->
+        <section id="contact" class="contact flex-columns">
+            <div class="row">
+                <div class="column">
+                    <div class="column-1">
+                        <img src="images/home/contact.jpg" alt="">
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="column-2 bg-light">
+                        <h2>Request a Callback</h2>
+                        <form action="" class="callback-form">
+                            <div class="form-control">
+                                <label for="name"></label>
+                                <input type="text" name="name" id="name" placeholder="Enter Name">
+                            </div>
+                            <div class="form-control">
+                                <label for="email"></label>
+                                <input type="email" name="email" id="email" placeholder="Enter Email">
+                            </div>
+                            <div class="form-control">
+                                <label for="phone"></label>
+                                <input type="text" name="phone" id="phone" placeholder="Enter Phone">
+                            </div>
+                            <input type="submit" value="send" id="submit" class="btn btn-primary">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
+    <footer class="footer bg-dark">
+        <div class="social">
+            <a href=""><i class="fab fa-facebook fa-2x"></i></a>
+            <a href=""><i class="fab fa-twitter fa-2x"></i></a>
+            <a href=""><i class="fab fa-youtube fa-2x"></i></a>
+            <a href=""><i class="fab fa-linkedin fa-2x"></i></a>
+        </div>
+        <p>Copywrite &copy; <?php echo Date('Y')?> - EdgeLedger</p>
+    </footer>
 </body>
 </html>
