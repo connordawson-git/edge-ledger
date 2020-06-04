@@ -1,4 +1,4 @@
-        <div class="navbar" id="navbar">
+        <div class="navbar top" id="navbar">
             <h1 class="logo">
                 <span class="text-primary"><i class="fas fa-book-open"></i> Edge</span>Ledger
             </h1>

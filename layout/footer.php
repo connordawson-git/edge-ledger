@@ -7,5 +7,6 @@
         </div>
         <p>Copywrite &copy; <?php echo Date('Y')?> - EdgeLedger</p>
     </footer>
+    <script src="./js/main.js"></script>
 </body>
 </html>
